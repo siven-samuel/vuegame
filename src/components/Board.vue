@@ -49,14 +49,15 @@ export default {
   width: 100%;
   height: 100vh;
   .sky {
-    background: azure;
+    background: #e2d09c;
     height: 80%;
     width: 100%;
     position: relative;
   }
   .ground {
-    background: green;
+    background: #a87b4d;
     height: 20%;
+    z-index: 5;
   }
 }
 </style>
